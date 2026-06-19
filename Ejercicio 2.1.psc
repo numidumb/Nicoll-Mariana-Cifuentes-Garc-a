@@ -1,3 +1,3 @@
 Algoritmo sin_titulo
-	Escribir "Hola Nicoll"
+	Escribir "Hola Mundo"
 FinAlgoritmo
