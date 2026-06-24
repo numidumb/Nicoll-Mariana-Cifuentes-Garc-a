@@ -1,39 +1,46 @@
 Algoritmo ejemplo
-    definir M como entero
-    dimension vNumero[10]
-    
+    // Declaraci贸n del contador y el vector
+    Definir M Como Entero
+    Dimension vNumero[10]
+
+    // Limpia la pantalla
     Limpiar Pantalla
-    
-    vNumero[1]<-20
-    vNumero[2]<-14
-    vNumero[3]<-8
-    vNumero[4]<-0
-    vNumero[5]<-5
-    vNumero[6]<-19
-    vNumero[7]<-4
-    vNumero[8]<-9
-    vNumero[9]<-34
-    vNumero[10]<-23
-    
-    escribir ""
-    escribir "se asignaron los n鷐eros ... "
-    escribir ""
-    escribir "presione para continuar ..."
-    esperar tecla
-    limpiar pantalla
-    
-    escribir ""
-    Para M<-1 hasta 10 con paso 1 Hacer
-        escribir "el elemento en la posici髇 ",M," es ",vNumero[M]
+
+    // Asignaci贸n de valores al vector
+    vNumero[1] <- 20
+    vNumero[2] <- 14
+    vNumero[3] <- 8
+    vNumero[4] <- 0
+    vNumero[5] <- 5
+    vNumero[6] <- 19
+    vNumero[7] <- 4
+    vNumero[8] <- 9
+    vNumero[9] <- 34
+    vNumero[10] <- 23
+
+    // Mensaje de confirmaci贸n
+    Escribir ""
+    Escribir "se asignaron los n煤meros ..."
+    Escribir ""
+    Escribir "presione para continuar ..."
+    Esperar Tecla
+    Limpiar Pantalla
+
+    // Muestra los elementos del vector
+    Escribir ""
+    Para M <- 1 Hasta 10 Con Paso 1 Hacer
+        Escribir "el elemento en la posici贸n ", M, " es ", vNumero[M]
     FinPara
-    
-    escribir ""
-    escribir "presione para continuar ..."
-    esperar tecla
-	Limpiar Pantalla
-	
-	escribir""
-	Escribir "presione para continuar..."
-	esperar Tecla
-	Limpiar Pantalla
+
+    // Pausa antes de finalizar
+    Escribir ""
+    Escribir "presione para continuar ..."
+    Esperar Tecla
+    Limpiar Pantalla
+
+    // Pantalla final
+    Escribir ""
+    Escribir "presione para continuar..."
+    Esperar Tecla
+    Limpiar Pantalla
 FinAlgoritmo
