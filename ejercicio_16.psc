@@ -1,44 +1,61 @@
 Algoritmo ejercicio_16
+    
+    // Limpia la pantalla para iniciar el programa
     Limpiar Pantalla
-    
-    escribir ""
-    escribir "captura de números .."
-    escribir ""
-    
-    definir cantNumeros como entero
-    escribir "cuántos números quieres capturar ?" sin saltar
-    leer cantNumeros
-    
-    escribir ""
-    
-    definir M como entero
-    dimension vNumero[cantNumeros]
-    escribir ""
-    escribir "captura de números  ... "
-    escribir""
-    escribir "presione  para continuar ..."
-    esperar tecla
-    
-    escribir ""
-    Para M<-1 hasta cantNumeros con paso 1 Hacer
-        escribir "cuál es el elemento en la posición ",M," ? " Sin Saltar
-        leer vNumero[M]
+
+    // Mensaje de bienvenida
+    Escribir ""
+    Escribir "captura de nÃºmeros .."
+    Escribir ""
+
+    // Solicita la cantidad de nÃºmeros que se van a capturar
+    Definir cantNumeros Como Entero
+    Escribir "Â¿cuÃ¡ntos nÃºmeros quieres capturar? " Sin Saltar
+    Leer cantNumeros
+
+    Escribir ""
+
+    // Declara el contador y crea el vector segÃºn la cantidad indicada
+    Definir M Como Entero
+    Dimension vNumero[cantNumeros]
+
+    // Informa al usuario que comenzarÃ¡ la captura de datos
+    Escribir ""
+    Escribir "captura de nÃºmeros ..."
+    Escribir ""
+    Escribir "presione una tecla para continuar ..."
+    Esperar Tecla
+
+    Escribir ""
+
+    // Bucle para capturar cada nÃºmero y almacenarlo en el vector
+    Para M <- 1 Hasta cantNumeros Con Paso 1 Hacer
+        Escribir "Â¿cuÃ¡l es el elemento en la posiciÃ³n ", M, "? " Sin Saltar
+        Leer vNumero[M]
     FinPara
-    
-    escribir ""
-    escribir "los números capturados son ... "
-    escribir""
-    escribir "presione  para continuar ..."
-    esperar tecla
-    
-    escribir ""
-    Para M<-1 hasta cantNumeros con paso 1 Hacer
-        escribir "el elemento en la posición ",M,"  es ",vNumero[M]
+
+    Escribir ""
+
+    // Muestra mensaje antes de visualizar los datos almacenados
+    Escribir "los nÃºmeros capturados son ..."
+    Escribir ""
+    Escribir "presione una tecla para continuar ..."
+    Esperar Tecla
+
+    Escribir ""
+
+    // Recorre el vector y muestra cada elemento almacenado
+    Para M <- 1 Hasta cantNumeros Con Paso 1 Hacer
+        Escribir "el elemento en la posiciÃ³n ", M, " es ", vNumero[M]
     FinPara
-    
-    escribir ""
-    escribir "presione  para continuar ..."
-    esperar tecla
-    limpiar pantalla
-    
+
+    Escribir ""
+
+    // Pausa final antes de terminar el programa
+    Escribir "presione una tecla para continuar ..."
+    Esperar Tecla
+
+    // Limpia la pantalla al finalizar
+    Limpiar Pantalla
+
 FinAlgoritmo
