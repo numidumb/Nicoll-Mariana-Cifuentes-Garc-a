@@ -1,15 +1,10 @@
-Algoritmo ejercicio_19
-	definir num Como real
-	escribir "ingrese un numero"
-	leer num
-	
-	mientras num <> 0 hacer
-		si num % 1 = 0 Entonces
-			escribir "es un número entero"
-			escribir "ingrese un número"
-			leer num
-		FinSi
-	FinMientras
-	
-	Escribir  "intentelo nuevamente"
-FinAlgoritmo
+Algoritmo ejercicio_20
+definir num como real // programa para identificar numeros y mostrarselos al usuario
+escribir "ingrese un numero"
+leer num
+
+mientras num != 0 hacer //siempre y cuando el usuario no escriba 0 el programa sigue
+    escribir num
+    escribir "Ingrese un numero"
+    leer num
+finmientras
